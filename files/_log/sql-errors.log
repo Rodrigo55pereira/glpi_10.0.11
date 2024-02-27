@@ -1,0 +1,104 @@
+[2024-01-23 23:31:09] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `previous_status`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', '2', 'Ticket', '7', '2024-01-23 23:31:09')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"10@glpi-uaibrasil"} 
+[2024-01-23 23:31:09] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', 'TicketTask', '2', '2024-01-23 23:31:09')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"10@glpi-uaibrasil","mem_usage":"0.002\", 1.64Mio)"} 
+[2024-01-23 23:39:39] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `previous_status`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', '2', 'Ticket', '5', '2024-01-23 23:39:39')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"8@glpi-uaibrasil"} 
+[2024-01-23 23:39:39] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', 'TicketTask', '3', '2024-01-23 23:39:39')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"8@glpi-uaibrasil","mem_usage":"0.002\", 1.67Mio)"} 
+[2024-01-23 23:40:14] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `previous_status`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', '4', 'Ticket', '5', '2024-01-23 23:40:14')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"8@glpi-uaibrasil"} 
+[2024-01-23 23:40:14] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_pendingreasons_items` (`pendingreasons_id`, `followup_frequency`, `followups_before_resolution`, `itemtype`, `items_id`, `last_bump_date`) VALUES (NULL, '0', '0', 'TicketTask', '3', '2024-01-23 23:40:14')
+  Error: Column 'pendingreasons_id' cannot be null
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/PendingReason_Item.php:100                     CommonDBTM->add()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  {"user":"8@glpi-uaibrasil","mem_usage":"0.002\", 1.78Mio)"} 
+[2024-02-07 18:56:59] glpisqllog.ERROR: DBmysql::doQuery() in /var/www/html/glpi/src/DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_tickets_users` (`type`, `use_notification`, `alternative_email`, `tickets_id`, `users_id`) VALUES ('2', '', '', '61', '2')
+  Error: Incorrect integer value: '' for column `glpi`.`glpi_tickets_users`.`use_notification` at row 1
+  Backtrace :
+  src/DBmysql.php:1380                               DBmysql->doQuery()
+  src/CommonDBTM.php:729                             DBmysql->insert()
+  src/CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src/CommonITILObject.php:8672                      CommonDBTM->add()
+  src/CommonITILObject.php:2867                      CommonITILObject->updateActors()
+  src/Ticket.php:2227                                CommonITILObject->post_addItem()
+  src/CommonDBTM.php:1343                            Ticket->post_addItem()
+  front/ticket.form.php:80                           CommonDBTM->add()
+  {"user":"2@glpi-uaibrasil"} 

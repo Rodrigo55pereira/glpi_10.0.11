@@ -1,0 +1,138 @@
+[2024-01-18 04:17:18] glpiphplog.WARNING: Test logger  
+[2024-01-18 20:46:32] glpiphplog.WARNING: Test logger  
+[2024-01-19 18:29:15] glpiphplog.WARNING: Test logger  
+[2024-01-23 23:31:09] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 488
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:31:09] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:31:09] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 494
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:31:09] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:39:39] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 488
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:39:39] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:39:39] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 494
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:39:39] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:40:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 488
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:40:14] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:487                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:40:14] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pendingreasons_id" in /var/www/html/glpi/src/PendingReason_Item.php at line 494
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-23 23:40:14] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to create PendingReason_Item in /var/www/html/glpi/src/PendingReason_Item.php at line 102
+  Backtrace :
+  src/PendingReason_Item.php:102                     trigger_error()
+  src/PendingReason_Item.php:493                     PendingReason_Item::createForItem()
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1747                            CommonITILTask->post_updateItem()
+  front/commonitiltask.form.php:97                   CommonDBTM->update()
+  front/tickettask.form.php:39                       include()
+  
+[2024-01-25 17:06:39] glpiphplog.WARNING: Test logger  
+[2024-01-25 17:07:32] glpiphplog.WARNING: Test logger  
+[2024-01-29 17:29:49] glpiphplog.CRITICAL:   *** Uncaught Exception Exception: Tipo de servidor de email não suportado:. in /var/www/html/glpi/src/MailCollector.php at line 1436
+  Backtrace :
+  src/MailCollector.php:708                          MailCollector->connect()
+  front/mailcollector.form.php:106                   MailCollector->collect()
+  
+[2024-01-29 17:30:37] glpiphplog.CRITICAL:   *** Uncaught Exception Exception: Tipo de servidor de email não suportado:. in /var/www/html/glpi/src/MailCollector.php at line 1436
+  Backtrace :
+  src/MailCollector.php:708                          MailCollector->connect()
+  front/mailcollector.form.php:106                   MailCollector->collect()
+  
+[2024-01-29 17:31:11] glpiphplog.CRITICAL:   *** Uncaught Exception Exception: Tipo de servidor de email não suportado:. in /var/www/html/glpi/src/MailCollector.php at line 1436
+  Backtrace :
+  src/MailCollector.php:708                          MailCollector->connect()
+  front/mailcollector.form.php:106                   MailCollector->collect()
+  
+[2024-01-29 17:32:52] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in /var/www/html/glpi/vendor/laminas/laminas-mail/src/Protocol/Imap.php at line 88
+  Backtrace :
+  ...r/laminas/laminas-mail/src/Storage/Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src/Toolbox.php:2224                               Laminas\Mail\Storage\Imap->__construct()
+  src/MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src/MailCollector.php:708                          MailCollector->connect()
+  front/mailcollector.form.php:106                   MailCollector->collect()
+  
+[2024-01-29 17:43:01] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in /var/www/html/glpi/vendor/laminas/laminas-mail/src/Protocol/Imap.php at line 88
+  Backtrace :
+  ...r/laminas/laminas-mail/src/Storage/Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src/Toolbox.php:2224                               Laminas\Mail\Storage\Imap->__construct()
+  src/MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src/MailCollector.php:708                          MailCollector->connect()
+  src/MailCollector.php:1921                         MailCollector->collect()
+  src/CronTask.php:1027                              MailCollector::cronMailgate()
+  front/cron.php:67                                  CronTask::launch()
+  
+[2024-01-31 17:03:22] glpiphplog.WARNING: Test logger  
+[2024-02-19 19:48:24] glpiphplog.WARNING: Test logger  
+[2024-02-26 12:08:01] glpiphplog.WARNING: Test logger  
+[2024-02-26 12:08:45] glpiphplog.WARNING: Test logger  
